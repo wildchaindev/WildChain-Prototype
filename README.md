@@ -18,7 +18,7 @@ Before you start, install the [Flow command-line interface (CLI)](https://docs.o
 ### 2. Clone the project 
 
 ```sh
-git clone (repo url here)
+git clone https://github.com/wildchaindev/WildChain-Prototype.git
 ```
 
 ### 3. Configuration
