@@ -93,7 +93,7 @@ In flow.json should be the following:
 }
 ```
 
-Replace ADDRESS_HERE with your account address and
+Replace ADDRESS_HERE with your account address with the 0x removed and
 PRIVATE_KEY_HERE <br/>with the private key from ```flow keys generate``` 
 
 ### 5. Deploy the contracts
