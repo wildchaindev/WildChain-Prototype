@@ -1,0 +1,49 @@
+{
+  "name": "wc-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@onflow/fcl": "^0.0.72",
+    "@onflow/sdk": "0.0.50",
+    "@onflow/types": "^0.0.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "lit-element": "^2.3.1",
+    "lit-html": "^1.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.14.3",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev-wallet": "PK=eb4b6f767429455ee4b28f16076192b7229bf8370ba53df151e3cfe07deac1ff SERVICE_ADDR=f8d6e0586b0a20c7 fcl-wallet"
+  },
+  "devDependencies": {
+    "@onflow/dev-wallet": "^0.0.10"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

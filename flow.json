@@ -1,0 +1,37 @@
+{
+	"emulators": {
+		"default": {
+			"port": 3569,
+			"serviceAccount": "emulator-account"
+		}
+	},
+	"contracts":{
+		"DappState": "src/cadence/contracts/DappState.cdc",
+		"WildCoin": "src/cadence/contracts/WildCoin.cdc",
+		"Marketplace": "src/cadence/contracts/Marketplace.cdc",
+		"WildNFT": "src/cadence/contracts/WildNFT.cdc"
+   },
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"keys": "eb4b6f767429455ee4b28f16076192b7229bf8370ba53df151e3cfe07deac1ff"
+		},
+		"test-account": {
+			"address": "ADDRESS_HERE",
+			"keys": "PRIVATE_KEY_HERE"
+		}
+	},
+	"deployments": {
+		"emulator": {
+			"emulator-account": ["WildNFT", "WildCoin", "Marketplace"]
+  		},
+		"testnet": {
+			"test-account": ["WildNFT", "WildCoin", "Marketplace"]
+		}	
+	}
+}
